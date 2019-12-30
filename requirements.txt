@@ -1,0 +1,11 @@
+Flask
+Flask-Login
+Flask-Script
+WTForms
+Flask-PyMongo
+dnspython
+torch
+numpy
+flask_dropzone
+flask_uploads
+gunicorn
