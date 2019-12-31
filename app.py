@@ -24,11 +24,10 @@ dropzone = Dropzone(app)
 app.config['SECRET_KEY'] = 'supersecretkeygoeshere'
 
 # Dropzone settings
-app.config['DROPZONE_UPLOAD_MULTIPLE'] = False
+app.config['DROPZONE_UPLOAD_MULTIPLE'] = True
 app.config['DROPZONE_ALLOWED_FILE_CUSTOM'] = True
 app.config['DROPZONE_ALLOWED_FILE_TYPE'] = 'image/*'
 app.config['DROPZONE_REDIRECT_VIEW'] = 'results'
-app.config['DROPZONE_DEFAULT_MESSAGE'] = 'Arrastra tu foto hasta aqui'
 
 # Uploads settings
 app.config['UPLOADED_PHOTOS_DEST'] = os.getcwd() + '/uploads'
