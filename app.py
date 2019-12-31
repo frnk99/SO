@@ -16,7 +16,7 @@ from flask_uploads import UploadSet, configure_uploads, IMAGES, patch_request_cl
 
 import os
 
-model_ft=torch.load('./models/model')
+model_ft=torch.load('models/model')
 app = Flask(__name__)
 dropzone = Dropzone(app)
 
@@ -99,10 +99,6 @@ def model_predict(img_path):
     input_tensor = preprocess(input_image)
     input_batch = input_tensor.unsqueeze(0) # create a mini-batch as expected by the model
 
-    # move the input and model to GPU for speed if available
-    if torch.cuda.is_available():
-        input_batch = input_batch.to('cuda')
-        model_ft.to('cuda')
 
     with torch.no_grad():
         output = model_ft(input_batch)
