@@ -1,13 +1,14 @@
 body {background:url('../img/background_tile_1.jpg');
     width: 100%;
     height: 100%;
-    color: white;
+    color: #fff;
 }
 html {
     font-family:sans-serif;
     background:url('../img/background_tile_1.jpg');
     width: 100%;
     height: 100%;
+    color: #fff;
 }
 
 @media(min-width:767px) {
@@ -33,6 +34,7 @@ html {
   width: 100%;
   display: block;
 }
+
 .welcome-section {
     height: 100%;
     padding-top: 150px;
@@ -51,7 +53,7 @@ html {
   text-align: bottom;
   width: 50%;
   font-size: 50px;
-  color: white;
+  color: #fff;
 }
 
 
