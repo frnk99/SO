@@ -28,6 +28,10 @@ html {
     text-decoration: none;
 }
 
+.illustration img {
+  width: 100%;
+  display: block;
+}
 .welcome-section {
     height: 100%;
     padding-top: 150px;
