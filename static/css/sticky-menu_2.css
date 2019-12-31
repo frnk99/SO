@@ -41,7 +41,7 @@ html {
 #photo_real {
 
   text-align: center;
-  width: 50%;
+  width: 100%;
   font-size: 50px;
 }
 
@@ -50,7 +50,7 @@ html {
   text-align: bottom;
   width: 50%;
   font-size: 50px;
-
+  color: white
 }
 
 
