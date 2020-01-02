@@ -31,18 +31,6 @@ html {
 }
 
 #container {
-   height: 100px;
-   width: 100%;
-   margin: 100px auto;
-   vertical-align:bottom;
-   horizontal-align: middle;
-   font-size: 50px;
-   font-family:sans-serif;
-   color: white;
-   position: relative;
-  }
-
-#container img {
     position: fixed;
     width:400px;
     top: 50%;
@@ -50,10 +38,20 @@ html {
     transform: translate(-50%, -50%);
 }
 
-#container span {
-   position:fixed;
-   left: 50%;
-   transform: translateX(-50%);
-   bottom:0px;
-   width:100%;
+#container2 {
+  width:100px;
+  height:50px;
+  margin: 100px auto;
+  background: #fff;
+  position: relative;
+}
+
+#container2 h1{
+
+  margin: 0;
+  padding:0
+  background: #fff;
+  position: relative;
+  text-align: center;
+  font-family:sans-serif;
 }

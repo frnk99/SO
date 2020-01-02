@@ -12,11 +12,13 @@
 
 <a id="back2Top" href="{{ url_for('index') }}">Back</a><p>
 
-{% for file_url in file_urls %}
-<div id="container">
-    <img src="{{ file_url }}">
-<span id="caption"><p style="color:white"> {{ predictions }}</p></span>
+<div class="container2"> 
+<h1><p style="color:white"> {{ predictions }}</h1>
 </div>
+
+{% for file_url in file_urls %}
+    <img id="container" src="{{ file_url }}">
+
 {% endfor %}
 
     

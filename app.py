@@ -8,13 +8,10 @@ import torchvision.transforms as transforms
 from torch.autograd import Variable
 # Keras
 from PIL import Image
-from torchvision import transforms
 
 from flask import Flask, redirect, render_template, request, session, url_for
 from flask_dropzone import Dropzone
 from flask_uploads import UploadSet, configure_uploads, IMAGES, patch_request_class
-
-import os
 
 model_ft=torch.load('models/model')
 app = Flask(__name__)
