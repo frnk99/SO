@@ -12,35 +12,11 @@
 
 <a id="back2Top" href="{{ url_for('index') }}">Back</a><p>
 
-<!-- Welcome   -->
-    <section id="welcome" class="welcome-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <head>
-        <title>Flask App</title>
-<a id="photo_real" 
-
 {% for file_url in file_urls %}
-    <li><img class='illustration' align="middle" style='max-width: 500px' src="{{ file_url }}"></li>
+<div id="container">
+    <img src="{{ file_url }}">
+<span id="caption"><p style="color:white"> {{ predictions }}</p></span>
+</div>
 {% endfor %}
 
-</a>
-
-<a id="photo" 
-<p>{{ predictions }}</p>
-</a>
-
-    </head>
-    <body>
-        
-</body>
-					<p>&nbsp;</p>
-                  </div>
-            </div>
-        </div>
-    </section>
-
-
-
-
+    
