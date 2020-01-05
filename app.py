@@ -2,12 +2,13 @@ import numpy as np
 import torch
 import os
 import time
+from PIL import Image
 import torch.nn as nn
 import torchvision.models as models
 import torchvision.transforms as transforms
 from torch.autograd import Variable
 # Keras
-from PIL import Image
+
 
 from flask import Flask, redirect, render_template, request, session, url_for
 from flask_dropzone import Dropzone
