@@ -2,7 +2,6 @@ Flask
 Flask-Login
 Flask-Script
 WTForms
-PIL
 Pillow
 Flask-PyMongo
 dnspython
