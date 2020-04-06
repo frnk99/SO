@@ -5,7 +5,7 @@ import time
 from PIL import Image
 import torch.nn as nn
 
-import torchvision.transforms as transforms
+from torchvision import transforms
 from torch.autograd import Variable
 # Keras
 
